@@ -1,6 +1,7 @@
 /* Start Main Rulez */
 body{
     background-color: #888;
+    height: 4000px;
 }
 
 .container {
@@ -37,3 +38,34 @@ body{
     padding: 10px;
 }
 /* End header */
+/* Start features */
+.features {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.features .feat {
+    float: left;
+     width: 33.3333%;
+    height: 150px;
+    background-color: #ddd;
+}
+
+/* End features */
+
+/* start about me*/
+.about-me {
+     background-color: #f2f2f2;
+}
+.about-me .image {
+    float: left;
+    width: 40%;
+}
+.about-me .image img {
+    width: 100%;
+}
+.about-me .info {
+    float: left;
+    width: 60%;
+}
+/* end about me*/

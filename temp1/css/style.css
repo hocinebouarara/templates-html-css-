@@ -125,3 +125,19 @@ body{
     text-align: center;
 }
 /* end testemonials */
+
+/* start portfolio*/
+.portfolio {
+    overflow: hidden;
+    text-align: center;
+}
+.portfolio .our-work > div {
+    float: left;
+    width: 33.33333%;
+    margin-bottom: 15px;
+}
+.portfolio .our-work > div img {
+    width: 92%;
+}
+/* end portfolio*/
+

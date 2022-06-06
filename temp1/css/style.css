@@ -141,3 +141,22 @@ body{
 }
 /* end portfolio*/
 
+/* start contact me*/
+.contact {
+    background-color: #252f31;
+    overflow: hidden;
+
+}
+.contact h2 {
+    color: #fff;
+}
+.contact p {
+    color: #6a6e71;
+}
+.contact .info,
+.contact .form {
+    width: 50%;
+    float: left;
+}
+
+/* end contact me*/

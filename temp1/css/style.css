@@ -78,14 +78,21 @@ body{
 /* Start features */
 .features {
     overflow: hidden;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 .features .feat {
     float: left;
      width: 33.3333%;
     height: 150px;
-    background-color: #ddd;
+}
+.features .feat h2 {
+    color: #555;
+}
+.features .feat p {
+    line-height: 1.7;
+    color: #888;
+    padding: 0 6px 0 0;
 }
 
 /* End features */

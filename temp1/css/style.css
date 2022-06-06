@@ -1,6 +1,6 @@
 /* Start Main Rulez */
 body{
-    height: 4000px;
+
 }
 
 .clearfix {
@@ -17,7 +17,33 @@ body{
 
 .header .slider {
     background-color: #eee;
-    height: 420px;
+    background-image: url('/imgs/slider.png');
+    -webkit-background-size: cover; /* css3*/  -moz-background-size: cover; /* css3*/  -o-background-size: cover; /* css3*/  
+    background-size: cover; /* css3*/
+    height: 440px;
+}
+.header .slider .intro {
+    padding-top: 200px;
+    text-align: center;
+    color: #fff;
+}
+.header .slider .intro h2 {
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    padding:5px 0 ;
+}
+.header .slider .intro button {
+    background: none;
+    margin-top: 20px;
+    border: 2px solid #fff;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 30px;
+
 }
 .header .navbar {
     background-color: #252F31;
@@ -39,6 +65,14 @@ body{
 .header .navbar ul li {
     float: left;
     padding: 10px;
+}
+.header .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover {
+    color: #2ecc71;
 }
 /* End header */
 /* Start features */
@@ -160,3 +194,11 @@ body{
 }
 
 /* end contact me*/
+/* start footer */
+.footer {
+    background-color: #191e22;
+    color: #6a6e71;
+    padding: 20px 0;
+    text-align: center;
+}
+/* end footer */

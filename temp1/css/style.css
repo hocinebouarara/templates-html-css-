@@ -114,9 +114,20 @@ body{
     float: left;
     width: 60%;
 }
+.about-me .info h2 {
+    margin:  40px 0 10px 40px;
+}
+.about-me .info p {
+    margin: 0 0 10px 40px;
+    line-height: 1.7;
+    color: #666;
+}
+.about-me .info p:last-of-type {
+    margin-top: 30px;
+}
 .about-me .info .hobbies {
     overflow: hidden;
-    margin: 20px;
+    margin: 40px 0 0 40px;
 }
 .about-me .info .hobbies >div {
     float: left;

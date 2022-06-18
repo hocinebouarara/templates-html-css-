@@ -1,0 +1,51 @@
+body{
+    background-color: #999;
+    height: 4000px;
+
+}
+clearfix {
+    clear: both;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.header .slider {
+     background-color: #4158D0;
+     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+     height: 450px;
+}
+.header .navbar {
+    overflow: hidden;
+    color: #202940;
+    text-align: center;
+    background-color: #202940;
+    padding: 0;
+}
+.header .navbar ul {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    font-size: 18px;
+
+}
+.header .navbar ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.header .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.header .navbar ul li.active a,
+.header .navbar ul li a {
+    color: aquamarine;
+}
+.header .navbar ul li a h2 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
